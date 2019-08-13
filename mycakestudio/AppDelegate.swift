@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  mycakestudio
 //
-//  Created by 千丹 on 2019/7/31.
+//  Created by Dan Qian on 2019/7/31.
 //  Copyright © 2019 dyq. All rights reserved.
 //
 

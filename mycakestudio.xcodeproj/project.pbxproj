@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4410D03230276E40008E330 /* CustomLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4410D02230276E40008E330 /* CustomLocation.swift */; };
 		E4D964FD22F15401000ABA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D964FC22F15401000ABA3E /* AppDelegate.swift */; };
 		E4D964FF22F15401000ABA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D964FE22F15401000ABA3E /* ViewController.swift */; };
 		E4D9650222F15401000ABA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D9650022F15401000ABA3E /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4410D02230276E40008E330 /* CustomLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocation.swift; sourceTree = "<group>"; };
 		E4D964F922F15401000ABA3E /* mycakestudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycakestudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D964FC22F15401000ABA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4D964FE22F15401000ABA3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				E4D964FC22F15401000ABA3E /* AppDelegate.swift */,
 				E4D964FE22F15401000ABA3E /* ViewController.swift */,
 				E4D9650022F15401000ABA3E /* Main.storyboard */,
+				E4410D02230276E40008E330 /* CustomLocation.swift */,
 				E4D9650322F15402000ABA3E /* Assets.xcassets */,
 				E4D9650522F15402000ABA3E /* LaunchScreen.storyboard */,
 				E4D9650822F15402000ABA3E /* Info.plist */,
@@ -199,6 +202,7 @@
 			files = (
 				E4D964FF22F15401000ABA3E /* ViewController.swift in Sources */,
 				E4D964FD22F15401000ABA3E /* AppDelegate.swift in Sources */,
+				E4410D03230276E40008E330 /* CustomLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
