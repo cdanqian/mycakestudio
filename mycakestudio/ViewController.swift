@@ -33,7 +33,7 @@ class ViewController: UIViewController {
             imageView.image = images[i]
             let xPosition = UIScreen.main.bounds.width * CGFloat(i)
             imageView.frame = CGRect(x: xPosition, y: 0, width: imageScrollView.frame.width, height: imageScrollView.frame.height)
-            imageView.contentMode = .scaleAspectFit
+            imageView.contentMode = .scaleToFill 
             imageScrollView.contentSize.width = imageScrollView.frame.width * CGFloat(i + 1)
             imageScrollView.addSubview(imageView)
         }
