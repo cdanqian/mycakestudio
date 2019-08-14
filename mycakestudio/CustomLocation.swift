@@ -26,7 +26,7 @@ class CustomLocation: NSObject,MKAnnotation{
     }
     
     var subtitle: String?{
-        return "Tap me and get the direction :) "
+        return "Tap here and get the direction on the map:) "
     }
     
     func mapItem()-> MKMapItem{
