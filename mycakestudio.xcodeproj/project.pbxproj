@@ -34,7 +34,6 @@
 		E4D9650122F15401000ABA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4D9650322F15402000ABA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D9650622F15402000ABA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E4D9650822F15402000ABA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4D9650D22F15402000ABA3E /* mycakestudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mycakestudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D9651122F15402000ABA3E /* mycakestudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mycakestudioTests.swift; sourceTree = "<group>"; };
 		E4D9651322F15402000ABA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +84,6 @@
 				E4410D02230276E40008E330 /* CustomLocation.swift */,
 				E4D9650322F15402000ABA3E /* Assets.xcassets */,
 				E4D9650522F15402000ABA3E /* LaunchScreen.storyboard */,
-				E4D9650822F15402000ABA3E /* Info.plist */,
 			);
 			path = mycakestudio;
 			sourceTree = "<group>";

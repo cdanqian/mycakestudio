@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="24" width="414" height="1442"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mUz-cW-OXZ" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="-7" width="414" height="1507"/>
+                                        <rect key="frame" x="0.0" y="-7" width="414" height="1485"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjn-mC-Qny">
                                                 <rect key="frame" x="144.66666666666666" y="86" width="124.99999999999997" height="28"/>
@@ -36,7 +36,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fu7-FO-74b">
-                                                <rect key="frame" x="28" y="160" width="358" height="46.666666666666657"/>
+                                                <rect key="frame" x="28" y="160" width="358" height="81.333333333333314"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Start to make your own cake and celebrate every sweet moment of your life! ">
                                                         <attributes>
@@ -60,20 +60,17 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="8MLLTMD1J5" translatesAutoresizingMaskIntoConstraints="NO" id="Lkz-gR-NUS">
-                                                <rect key="frame" x="28" y="409" width="358" height="253"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Please be informed that MyCake is not a real world business." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zv-E2-jm3">
-                                                <rect key="frame" x="73" y="1411" width="268" height="11"/>
+                                                <rect key="frame" x="73" y="1441" width="268" height="11"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sKf-KR-w4c" userLabel="InfoView">
-                                                <rect key="frame" x="20" y="804.66666666666663" width="374" height="273.33333333333337"/>
+                                                <rect key="frame" x="20" y="785" width="374" height="273.33333333333326"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOV-x7-Qj6">
-                                                        <rect key="frame" x="119.66666666666667" y="20" width="162.66666666666663" height="21"/>
+                                                        <rect key="frame" x="120.00000000000001" y="20" width="162.33333333333337" height="21"/>
                                                         <string key="text">📆 Monday - Sunday 
 </string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -87,7 +84,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1b0-JV-jtu">
-                                                        <rect key="frame" x="119.66666666666664" y="61" width="181.33333333333337" height="20"/>
+                                                        <rect key="frame" x="120" y="61" width="181" height="20"/>
                                                         <string key="text">⏰ 10:30 am - 8:30 pm
 </string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -121,13 +118,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Hours:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHV-B9-gom">
-                                                        <rect key="frame" x="19.999999999999996" y="19.333333333333371" width="50.666666666666657" height="21"/>
+                                                        <rect key="frame" x="20" y="19.333333333333371" width="51" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fremont, CA 94538" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zx-rb-MCS">
-                                                        <rect key="frame" x="149" y="230.00000000000011" width="152" height="20"/>
+                                                        <rect key="frame" x="149" y="230" width="152" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="12f-GJ-JnW"/>
                                                         </constraints>
@@ -180,42 +177,51 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJM-sW-pyv">
-                                                <rect key="frame" x="29" y="1130" width="357" height="247"/>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJM-sW-pyv">
+                                                <rect key="frame" x="29" y="1150" width="356" height="257"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="257" id="wee-PJ-cRx"/>
+                                                </constraints>
                                             </mapView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ISc-Pz-dDZ">
+                                                <rect key="frame" x="29" y="405" width="356" height="293"/>
+                                            </scrollView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="bJM-sW-pyv" firstAttribute="leading" secondItem="Lkz-gR-NUS" secondAttribute="leading" id="4XR-fh-xqH"/>
+                                            <constraint firstItem="0le-n9-22x" firstAttribute="top" secondItem="ISc-Pz-dDZ" secondAttribute="bottom" constant="25" id="1zc-4M-d4P"/>
+                                            <constraint firstItem="ISc-Pz-dDZ" firstAttribute="leading" secondItem="0le-n9-22x" secondAttribute="leading" id="2Ab-fb-VeZ"/>
                                             <constraint firstItem="kjn-mC-Qny" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="6VI-F8-hTi"/>
                                             <constraint firstItem="sKf-KR-w4c" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="79D-LN-ycc"/>
                                             <constraint firstItem="bJM-sW-pyv" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="873-C7-isd"/>
-                                            <constraint firstItem="Lkz-gR-NUS" firstAttribute="top" secondItem="v4H-hJ-iDz" secondAttribute="bottom" constant="33" id="Bcy-cK-BQs"/>
                                             <constraint firstItem="0le-n9-22x" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="Bsa-pr-BAH"/>
                                             <constraint firstItem="Fu7-FO-74b" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="EKr-WD-pRg"/>
-                                            <constraint firstItem="0le-n9-22x" firstAttribute="top" secondItem="Lkz-gR-NUS" secondAttribute="bottom" constant="78.333333333333258" id="EMU-qW-t0G"/>
-                                            <constraint firstItem="sKf-KR-w4c" firstAttribute="top" secondItem="0le-n9-22x" secondAttribute="bottom" constant="51" id="Ea3-wT-SuL"/>
+                                            <constraint firstAttribute="bottom" secondItem="7zv-E2-jm3" secondAttribute="bottom" constant="48" id="Etx-5m-vbH"/>
                                             <constraint firstAttribute="trailing" secondItem="Fu7-FO-74b" secondAttribute="trailing" constant="28" id="I8h-ra-Cdq"/>
+                                            <constraint firstItem="sKf-KR-w4c" firstAttribute="top" secondItem="0le-n9-22x" secondAttribute="bottom" constant="41" id="JSZ-7H-Qvs"/>
                                             <constraint firstItem="0le-n9-22x" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="JYb-aM-gd0"/>
+                                            <constraint firstItem="ISc-Pz-dDZ" firstAttribute="top" secondItem="v4H-hJ-iDz" secondAttribute="bottom" constant="29" id="NQF-nW-Nvk"/>
                                             <constraint firstItem="kjn-mC-Qny" firstAttribute="top" secondItem="mUz-cW-OXZ" secondAttribute="top" constant="86" id="NdK-uP-4pd"/>
+                                            <constraint firstItem="bJM-sW-pyv" firstAttribute="top" secondItem="sKf-KR-w4c" secondAttribute="bottom" constant="91.666666666666742" id="S2z-m8-fk5"/>
                                             <constraint firstAttribute="height" constant="1500" id="TUd-O0-yan" userLabel="height = 1500"/>
                                             <constraint firstItem="sKf-KR-w4c" firstAttribute="leading" secondItem="mUz-cW-OXZ" secondAttribute="leading" constant="20" id="UwH-zB-OQ6"/>
                                             <constraint firstAttribute="trailing" secondItem="v4H-hJ-iDz" secondAttribute="trailing" constant="28" id="WNy-98-3xC"/>
-                                            <constraint firstAttribute="bottom" secondItem="7zv-E2-jm3" secondAttribute="bottom" constant="78" id="aPB-Az-MDs"/>
                                             <constraint firstItem="0le-n9-22x" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="ako-dO-VC8"/>
+                                            <constraint firstItem="ISc-Pz-dDZ" firstAttribute="top" secondItem="mUz-cW-OXZ" secondAttribute="top" constant="405" id="axT-H9-55d"/>
+                                            <constraint firstAttribute="trailing" secondItem="bJM-sW-pyv" secondAttribute="trailing" constant="29" id="b9t-Ae-2lK"/>
                                             <constraint firstItem="v4H-hJ-iDz" firstAttribute="leading" secondItem="mUz-cW-OXZ" secondAttribute="leading" constant="29" id="bT0-JU-RUR"/>
                                             <constraint firstItem="7zv-E2-jm3" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="bvG-Kp-a6k"/>
+                                            <constraint firstItem="bJM-sW-pyv" firstAttribute="leading" secondItem="mUz-cW-OXZ" secondAttribute="leading" constant="29" id="bz2-bA-3hC"/>
                                             <constraint firstItem="0le-n9-22x" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="jXN-a6-I9x"/>
                                             <constraint firstItem="Fu7-FO-74b" firstAttribute="top" secondItem="kjn-mC-Qny" secondAttribute="bottom" constant="46" id="jZm-um-Wwx"/>
-                                            <constraint firstItem="bJM-sW-pyv" firstAttribute="top" secondItem="sKf-KR-w4c" secondAttribute="bottom" constant="52" id="nRA-Ie-SXJ"/>
                                             <constraint firstItem="Fu7-FO-74b" firstAttribute="leading" secondItem="mUz-cW-OXZ" secondAttribute="leading" constant="28" id="nhu-an-QVX"/>
-                                            <constraint firstItem="Lkz-gR-NUS" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="och-oz-CVP"/>
+                                            <constraint firstAttribute="trailing" secondItem="ISc-Pz-dDZ" secondAttribute="trailing" constant="29" id="pxz-8m-wy6"/>
                                             <constraint firstItem="v4H-hJ-iDz" firstAttribute="top" secondItem="Fu7-FO-74b" secondAttribute="bottom" constant="53.333333333333343" id="qcH-k5-eDY"/>
-                                            <constraint firstAttribute="trailing" secondItem="Lkz-gR-NUS" secondAttribute="trailing" constant="28.000000000000114" id="qe2-L8-MWe"/>
                                             <constraint firstItem="sKf-KR-w4c" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="rZ2-bZ-UcY"/>
-                                            <constraint firstItem="7zv-E2-jm3" firstAttribute="top" secondItem="bJM-sW-pyv" secondAttribute="bottom" constant="41" id="sDG-ks-ipu"/>
                                             <constraint firstAttribute="trailing" secondItem="6zx-rb-MCS" secondAttribute="trailing" constant="93" id="uka-VF-YQm"/>
                                             <constraint firstItem="0le-n9-22x" firstAttribute="centerX" secondItem="mUz-cW-OXZ" secondAttribute="centerX" id="vPp-o4-Yci"/>
+                                            <constraint firstItem="ISc-Pz-dDZ" firstAttribute="leading" secondItem="mUz-cW-OXZ" secondAttribute="leading" constant="29" id="xbJ-Xv-zQf"/>
+                                            <constraint firstItem="7zv-E2-jm3" firstAttribute="top" secondItem="bJM-sW-pyv" secondAttribute="bottom" constant="34" id="y5c-cQ-xbs"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -241,15 +247,13 @@
                     </view>
                     <size key="freeformSize" width="414" height="1500"/>
                     <connections>
+                        <outlet property="imageScrollView" destination="ISc-Pz-dDZ" id="cBd-2C-aJI"/>
                         <outlet property="mapView" destination="bJM-sW-pyv" id="GQl-Yh-egE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1397.1014492753625" y="174.45652173913044"/>
+            <point key="canvasLocation" x="-1398.4000000000001" y="174.38423645320196"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="8MLLTMD1J5" width="498" height="280"/>
-    </resources>
 </document>

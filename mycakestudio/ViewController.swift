@@ -12,21 +12,46 @@ import MapKit
 class ViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     
+    @IBOutlet weak var imageScrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        initMapView()
+        initImageScrollView()
         
-        centerMapOnLocation(location: CLLocation(latitude: 37.546206, longitude: -121.986810));
+    }
+    func initImageScrollView(){
+        // set properties
+        imageScrollView.isPagingEnabled = true
+        imageScrollView.showsVerticalScrollIndicator = false
+        imageScrollView.showsHorizontalScrollIndicator = false
+        // add images
+        var images = [#imageLiteral(resourceName: "img2"),#imageLiteral(resourceName: "img1"),#imageLiteral(resourceName: "img4"),#imageLiteral(resourceName: "img3")] 
+        // set images
+        for i in 0..<images.count {
+            let imageView = UIImageView()
+            imageView.image = images[i]
+            let xPosition = UIScreen.main.bounds.width * CGFloat(i)
+            imageView.frame = CGRect(x: xPosition, y: 0, width: imageScrollView.frame.width, height: imageScrollView.frame.height)
+            imageView.contentMode = .scaleAspectFit
+            imageScrollView.contentSize.width = imageScrollView.frame.width * CGFloat(i + 1)
+            imageScrollView.addSubview(imageView)
+        }
+    }
+    func initMapView(){
         mapView.delegate = self
         mapView.isZoomEnabled = true
+        centerMapOnLocation(location: CLLocation(latitude: 37.546206, longitude: -121.986810));
+        
         let location = CustomLocation(title:"My Cake Studio",
                                       locationName:"Fremont Hub",
                                       discipline:"Food",
                                       coordinate: CLLocationCoordinate2D(latitude: 37.545704, longitude: -121.985523 ))
         mapView.addAnnotation(location)
     }
-    let regionRadius: CLLocationDistance = 1000
+    
     func centerMapOnLocation(location: CLLocation){
+        let regionRadius: CLLocationDistance = 1000
         let coordinateRegion = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
         mapView.setRegion(coordinateRegion, animated: true)
     }
